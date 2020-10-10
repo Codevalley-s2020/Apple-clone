@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f1f2;
+  font-family: "Poppins", sans-serif;
+}
+
+nav img {
+  width: auto;
+  height: 3vh;
+  padding: 5px 0 0 0;
+}
+
+nav {
+  padding: 10px;
+  height: 4vh;
+  background: rgb(66, 65, 65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 75vw;
+}
+
+li:hover {
+  opacity: 0.6; /*Sorry didn't cover this part in the video :(*/
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
